@@ -1,0 +1,12 @@
+.banner{
+    background: url('../img/banner-1.jpg') #252625;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+.about-me p{
+    line-height: 2em;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
