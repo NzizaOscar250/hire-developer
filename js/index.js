@@ -9,4 +9,6 @@ const fullyear=date.getFullYear();
 function dropdown(){
     links.classList.toggle("hidden")
 }
+
+// display the year automatically
 year.innerHTML=fullyear;
