@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5{
     font-weight:500;
 }
 
+
   </style>
 </head>
 </head>
@@ -201,30 +202,103 @@ h1,h2,h3,h4,h5{
 
 
 
-<footer>
+<footer class="p-0 m-0">
+<div class="container-fluid  sm:w-full bg-blue-100 py-5">
+    
+    <div class="grid grid-rows sm:grid-cols-4 px-2 place-items-stretch gap-3">
 
-    <div class="grid grid-cols-4">
-        <div class="">
-                <p>Making the world a better place through constructing elegant software</p>
+        <!-- my mission -->
+
+        <div class="mymission pb-4 text-slate-300">
+            <h2 class="text-2xl    py-3">MY MISSION</h2>
+            <p>Making the world a better place through constructing elegant software</p>
+        </div>
+        
+        <!-- usefull links -->
+
+        <div class="usefull-links">
+            <h2 class="text-2xl  text-slate-400"> USEFUL LINKS </h2>
+
+            <div class="links- block py-2">
+                <a href="https://www.youtube.com/@oscarbond0072" class="text-slate-200 block underline py-2" target="_blank"> > Student Tutorials</a>
+                <a href="blog.html" class="text-slate-200 block underline py-2"> > blog</a>
+                <a href="portifolio.html" class="text-slate-200 block underline py-2"> > Portfolio</a>
+                <a href="https://www.youtube.com/@oscarbond0072" class="text-slate-200 block underline py-2"> > Student Tutorials</a>
+                <a href="https://github.com/NzizaOscar250"  class="text-slate-200 block underline py-2" target="_blank"> > My Github</a>
+            </div>
         </div>
 
-        <div>
-            <h2>CONTACT INFO</h2>
-            <ul>
-                <li>+250 785 140 170</li>
-                <li>+250 786 943</li>
-            </ul>
+
+        <!-- contact-info -->
+
+        <div class="contact">
+            <h2 class="text-2xl  text-slate-400">CONTACT INFO</h2>
+            <ul class="mt-3 py-3">
+                <li class="flex gap-1">
+                    <span>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEHUlEQVR4nJWV2U9iZxjGz5/RtElnmmZmmt7YcQE3XCmorAc5wGFRVDqIgkuiycRZMuly0b+hvZibTqeOChyWA8gO1qa3TZrpTDNdRmvTNs1YFXWAPs3BDuEgbm/yXZE8v1/e830PBHHKTH/74bWxr+fvmlPTWWN66idDcjKnS0zkdMmJZ9q4I02nnQv29fkrxEXH9d1Hb1uzc18ZUs7iYHIcZOIG1PEPoIzbII+NQhYbQX90GH2rQ5DFrEUyfsNnyk5fO1f4aHbOas7M7FHJCWiTDmgS9hJAFbdBERuDPDaCgagVfdFhSFcteD9ihjhi5IA7ZHrccGr4yNr8PWN6qqhLTYJKOnCWvWSVCzeVAD1hGr0RuiiPjd2sGW7LzlmNmamivhR+EXsTeiNGdIcN6Arp0RWmiorIiI4Xbl+/fcWcmd0zpJw4r720Yj2cfVdYj86QDiKWQkdIv6OJTVwqA8zZ2WU67UKlvTHjQnLrGxwWXiJXyMGSmi3bV66n0r4jRKGd1aKNHUR3iL5/tJr0zat02lWstvc9j6Jylp4G0B8eOvZxq+3b2UG0BjVoYdUFaWL4MmHOTN+utud2//fhCx4gV9hHn8cCachypn1LkIQwoEZPSDdDGFOudK3d/5n7iwf4+Z8NSFaM6HUbIGZNp9o3B9UlQEtQwxJ0yvlLrZuzupHmAeYyH0PsptHj1h8dlj7R/giggjCo+oEwpFx7tW6Oc/0uiv8Wy4AvHi+X7LnwbrcOnW4KnUG+feV6BAEld3YIXdJxUG3/6moGf02UARzs1vqnJUCXhyoBurx6iILakj1/PSo0+ZWoZ+TbBJV0bL2yr35Y+uQkft/9gwd58MSDubVP8Hz3N+wXDrD0LABN3H7MvtGvQINP/pigEvaY9pSH5Vy/g53DXZw2u/k9tAZInn2DX456ryxIkAn7vbNqwbF2CxvbWycC9vMHaPaqIPRX2PtlqFvunyQ0axOXNMnxwlmlply1YeVpEC/z+WOAlR9ZCBklBF5l2f66V5Z/d1H8Zuk1q2O2pfNUck+IhiU6VQrceLGJze0t3P/+ETp8FASMCk2MAg2M/Mh+SfJZuYvUadvV81ZyJ6uHiBlEW+mQaGHUEDIqCBglGn3ch5XhPffAdt1izxtlgCJmo0+yl9SqBe5RMRq0+kg0M+oje58CjT45GpiBYt1DiZpX16qYjb1oJbdzhcaQEPpUEPi43XPrGShef9Q3ywsfSAy/poza8jz7yNC5KrklQELAAfwK1Lvl2/UP+shj/2Sq+OgCZy8Lj+SlrCUsduuNEoZ+pzdgXOwNmQpnlVqTR5mvX+7/nLfzypGx1sX+gGlB7DG8Xv2baJF6S+Sl7nQyVETk0262+TT7bQy52+xRPxF6VOHGh7KZui+ll2sG/z//AfTf2LDBzTS2AAAAAElFTkSuQmCC"></span>
+                    <span class="text-slate-400">Whatsapp (+250) 785 140 170</span>
+                </li>
+                <li class="flex gap-1 py-2">
+                    <span>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA90lEQVR4nO2UQUrDQBSGh7oT6iLZvP+bDF5BEDyDRQQ3XsEr9Aq9gldw48JTCAWvIFEPoNBdRYlMbGhNExMVF/nhwcB7fB/zEsa5If8m3vsTSY/AW5+S9GBmkw1B0egLZyXJNwRls+8mqONU7Ddmtv9dcAgBSVeNglgLSVPn3E4L9kjSBfBSZWwTnAL38TZ3WZYd1ZGBA0m3cfbJe3/eKCjOknaBGbAEXoHLJEn2ytmv+mmajtc5tYIK6BCYl3+GpLNYeZyfFzNNnO0N97nj5zbfqIvgI0AArmMFV5POgrYZBN1X9OuPnZlNfkIiKTez4+a7DvmrvAOBCNIGQJp5CwAAAABJRU5ErkJggg==">
+                    </span>
+                    <span class="text-slate-400">nzizaoscar25@gmai.com</span>
+                </li>
+
+                <li class="flex gap-1">
+                    <span>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABYElEQVR4nN2UzytEURTHP2ZMRmpmKUs7P0ryNygxRCw0Fnb+DSUhlpYsCCt7Czt/gmJkpKz8SpQNO6NbZ+o677z37hsrvnV6r3u/3++59557D/x35IEKsAecA6/AG1CTsTnhtIQxoA40UuJWFhGMNmAF+Aowb4bjbok2FasZjBsqnDYRFSUYAaaAC8PsRmrQp8bH48zb5Tx9ckHmOoFh+boYAsoyl1eaa0/3AzPGKnsDjrTb0LldR3BoHEExIEHRuG37FrGmSLMB5k1MK62rWQQvilTKkKCktO4xRvD+iwRlpf2wSJeKNJ8hQVVp7yzSkSLdA/0B5gPAg9Ieh17TT2BdTDQGgQ3haN2ilaDgXbdl4MQTbBv8g5h28Qh0xG13UhqXK1IPcAo8yb+1AyvBAilYE+JmCi9nmO+QoV07wRVwlsD1zXelnwVj1KtJUoLnuKKGIAdMJMwvAV2tmv8NfAO2l7D763EEJAAAAABJRU5ErkJggg==">
+                    </span>
+                    <span><a href="https://github.com/NzizaOscar250" class="text-slate-400">Github</a></span>
+                </li>  
+
+                <li class="flex gap-1 py-2">
+                    <span>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA3UlEQVR4nO2VQQ6CMBBFexs9isaD6A1Ywmn0ErrRm4B6gvk/3WFYQJoA7VgqC+Ens2mm/7Xzm9SYVYsUgBvJOkUBuKqg1tptKmhb1tqN5ran1GAARw348gPwOQgm+VIa5iQzZe87Vb65c9Bscs7Q5dtBv4HDl7Mi3x5UC4cv5yYLz8ZiPKTu4EVUzgAesdAQHMDdu7FtNImk9uPiwXRyaqciIgeST5KViOx9vdGj5rBZ5Tyack5wHVqfDB7SGNjXa0JawbONGkCp/BrV5b78UYnILiW88Wo8g+BVf6cPjPbl7XtE3o4AAAAASUVORK5CYII=">
+                    </span>
+                    <span><a href="https://github.com/NzizaOscar250" class="text-slate-400">Kigali,Gasabo</a></span>
+                </li> 
+                    <li>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d592.7541196150128!2d30.045504882794983!3d-1.9284888640866538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca47595e2c3ef%3A0x6f5bbce4f1ca824c!2sGatsata%2C%20Kigali!5e0!3m2!1sen!2srw!4v1687949582687!5m2!1sen!2srw" class="w-full rounded-md" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+             </ul>
         </div>
+
+        <!-- PROFILE -->
+
+        <div class="profile">
+            <div class="header relative">
+                <img src="../img/profile.jpg" alt="" srcset="" class="w-1/2 ml-auto rounded-md">
+                <div class="img-hider rounded-md"></div>
+            </div>
+        </div>
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
     <div class="at-the-end py-3 border-t border-gray-700  text-center bg-gray-800">
         <p class="text-gray-400">
-           Copy &copy; All right reserved by OS group <span id="year"></span>
+           Copyright &copy; All right reserved by OS group <span id="year"></span>
         </p>
 
     </div>
+
+    <!-- usefull links -->
+    
 </footer>
 
 
