@@ -19,7 +19,7 @@ year.innerHTML=fullyear;
 function applyBackend(items){
  items.map((data,key)=>{
     backend.innerHTML +=`
-    <div class="flex flex-col sm:flex-row bg-white shadow-md border  rounded-md py-3">
+    <div class="flex flex-col sm:flex-row bg-white shadow-md border  rounded-md py-3" id="${data.name.toLowerCase()}">
                  <div class="header w-96  sm:self-center px-2">
                         <div class="card-image position-relative">
                             <img src="img/${data.img}" class=" position-relative" alt="" srcset="">
